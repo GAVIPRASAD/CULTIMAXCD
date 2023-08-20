@@ -5,5 +5,4 @@ typing
 numpy
 lightgbm
 pandas
-sklearn
 scikit-learn
