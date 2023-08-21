@@ -1,13 +1,6 @@
-## CropFusionAI Backend
-This repo contains all the Backend services that support the CropFusionAI Frontend [here](https://github.com/deepeshdm/CropFusionAI).
+## CultimaxCD backend
 
-It contains the following things : 
-- Model Training Data
-- Model Training Notebooks
-- Trained ML models for Crop & Fertilizer Classification
-- Backend FastAPI services that exposes both models through REST API's.
-
-<div align="center"> <h3>  🔥 API Docs 👉 <a href="https://8080-797137136eb6451193a1f8c64a951490.patr.cloud/docs"> here </a> <div align="center"> </h3> </div>
+<div align="center"> <h3> Docs 👉 <a href="https://cultimaxcd.onrender.com/docs"> here </a> <div align="center"> </h3> </div>
 <div align="center">
 <img src="/data/fapi.png" width="95%"/>
 </div>
@@ -20,7 +13,7 @@ Below are some code examples you can utilize to send post requests to different 
 
 ```python
 import requests
-url = "https://8080-797137136eb6451193a1f8c64a951490.patr.cloud/crop_recommend"
+url = "https://cultimaxcd.onrender.com/crop_recommend"
 payload = { "array": [55,44,33,40,75,6.5,300] }
 response = requests.post(url, json=payload)
 print(response.json())
@@ -30,7 +23,7 @@ print(response.json())
 
 ```python
 import requests
-url = "https://8080-797137136eb6451193a1f8c64a951490.patr.cloud/fertilizer_recommend"
+url = "https://cultimaxcd.onrender.com/fertilizer_recommend"
 payload = { "array": [33,56,30,88,91,12,"Sandy","Cotton"] }
 response = requests.post(url, json=payload)
 print(response.json())
