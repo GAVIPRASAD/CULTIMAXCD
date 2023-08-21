@@ -2,7 +2,6 @@
 
 <div align="center"> <h3> Docs 👉 <a href="https://cultimaxcd.onrender.com/docs"> here </a> <div align="center"> </h3> </div>
 <div align="center">
-<img src="/data/fapi.png" width="95%"/>
 </div>
 
 
